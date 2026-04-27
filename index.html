@@ -13,52 +13,69 @@
     <nav>
         <a href="#servicios">Servicios</a>
         <a href="#nosotros">Nosotros</a>
+        <a href="#video">Taller</a>
         <a href="#contacto">Contacto</a>
     </nav>
 </header>
 
+<!-- HERO CON IMAGEN -->
 <section class="hero">
-    <h2>Tu coche en las mejores manos</h2>
-    <p>Reparaciones rápidas, profesionales y al mejor precio</p>
-    <button onclick="scrollToContact()">Pedir cita</button>
+    <div class="overlay">
+        <h2>Tu coche en las mejores manos</h2>
+        <p>Profesionales en neumáticos, aceite y revisiones</p>
+        <button onclick="scrollToContact()">Pedir cita</button>
+    </div>
 </section>
 
+<!-- SERVICIOS -->
 <section id="servicios" class="servicios">
     <h2>Servicios</h2>
 
     <div class="cards">
         <div class="card">
             <h3>Pinchazos</h3>
-            <p>Reparación rápida de neumáticos.</p>
+            <p>Reparación rápida.</p>
         </div>
 
         <div class="card">
-            <h3>Cambio de neumáticos</h3>
-            <p>Montaje, equilibrado y revisión completa.</p>
+            <h3>Neumáticos</h3>
+            <p>Montaje y equilibrado.</p>
         </div>
 
         <div class="card">
-            <h3>Cambio de aceite</h3>
-            <p>Incluye revisión básica del motor.</p>
+            <h3>Aceite</h3>
+            <p>Cambio completo.</p>
         </div>
 
         <div class="card">
             <h3>Filtros</h3>
-            <p>Aire, aceite y combustible.</p>
+            <p>Revisión total.</p>
         </div>
 
         <div class="card">
-            <h3>Revisión pre-ITV</h3>
-            <p>Evita sorpresas en la inspección.</p>
+            <h3>Pre-ITV</h3>
+            <p>Evita rechazos.</p>
         </div>
     </div>
 </section>
 
-<section id="nosotros" class="nosotros">
-    <h2>Sobre nosotros</h2>
-    <p>Somos un taller especializado en mantenimiento rápido y eficaz. Trabajamos con tecnología moderna y atención personalizada.</p>
+<!-- VIDEO -->
+<section id="video" class="video-section">
+    <h2>Conoce nuestro taller</h2>
+
+    <video controls autoplay muted loop>
+        <source src="assets/video.mp4" type="video/mp4">
+        Tu navegador no soporta video.
+    </video>
 </section>
 
+<!-- NOSOTROS -->
+<section id="nosotros" class="nosotros">
+    <h2>Sobre nosotros</h2>
+    <p>Especialistas en mantenimiento rápido, con atención profesional y tecnología moderna.</p>
+</section>
+
+<!-- CONTACTO -->
 <section id="contacto" class="contacto">
     <h2>Contacto</h2>
 
