@@ -1,0 +1,7 @@
+.hero {
+    height: 90vh;
+    background: url('mecanico.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
