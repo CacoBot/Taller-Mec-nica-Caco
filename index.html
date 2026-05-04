@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enchúlame la Máquina</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Enchúlame la Máquina</h1>
+    <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#video">Taller</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="overlay">
+        <h2>Tu coche, como nuevo</h2>
+        <p>Pinchazos, neumáticos, aceite y revisiones rápidas</p>
+        <button onclick="scrollToContact()">Pedir cita</button>
+    </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios" class="servicios">
+    <h2>Servicios</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Pinchazos</h3>
+            <p>Reparación rápida y eficaz.</p>
+        </div>
+
+        <div class="card">
+            <h3>Neumáticos</h3>
+            <p>Montaje, equilibrado y revisión.</p>
+        </div>
+
+        <div class="card">
+            <h3>Cambio de aceite</h3>
+            <p>Mantenimiento completo del motor.</p>
+        </div>
+
+        <div class="card">
+            <h3>Filtros</h3>
+            <p>Aire, aceite y combustible.</p>
+        </div>
+
+        <div class="card">
+            <h3>Pre-ITV</h3>
+            <p>Evita sorpresas en la inspección.</p>
+        </div>
+    </div>
+</section>
+
+<!-- VIDEO -->
+<section id="video" class="video-section">
+    <h2>Así trabajamos</h2>
+
+    <video controls muted loop>
+        <source src="video.mp4" type="video/mp4">
+        Tu navegador no soporta video.
+    </video>
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros" class="nosotros">
+    <h2>Sobre nosotros</h2>
+    <p>En <strong>Enchúlame la Máquina</strong> nos enfocamos en rapidez, calidad y trato directo. Tu coche entra mal, sale perfecto.</p>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+
+    <form>
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Mensaje"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <p class="telefono">📞 +34 600 000 000</p>
+</section>
+
+<footer>
+    <p>© 2026 Enchúlame la Máquina</p>
+</footer>
+
+<script>
+function scrollToContact() {
+    document.getElementById("contacto").scrollIntoView({
+        behavior: "smooth"
+    });
+}
+</script>
+
+</body>
+</html>
